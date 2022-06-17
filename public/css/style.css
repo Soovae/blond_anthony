@@ -1,0 +1,431 @@
+/*Font Face*/
+
+@font-face{
+    font-family: 'SairaExtraCondensed';
+    src:local("SairaExtraCondensed-Regular"),
+        url(../font/SairaExtraCondensed-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Quantico';
+    src: local("Quantico-Regular"),
+         local("Quantico-Italic"),
+         local("Quantico-BoldItalic"),
+         local("Quantico-Bold"),
+         url(../font/Quantico-Regular.ttf),
+         url(../font/Quantico-Italic.ttf),
+         url(../font/Quantico-BoldItalic.ttf),
+         url(../font/Quantico-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'Aclonica';
+    src: local("Aclonica-Regular"),
+         url(../font/Aclonica-Regular.ttf);
+}
+
+/*Barre de navigation*/
+
+nav{
+    border-bottom: 2px solid black;
+    background-color:RGB(211, 45, 31);
+    margin-left:100px;
+    margin-right:100px;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 60px;
+    font-size: 17px;
+    color:black;
+    border-radius:15px;
+}
+
+
+.navbar{
+    display: table;
+    margin: 0 auto;
+    padding:0px;
+}
+
+.nav-index:hover, .nav-page2:hover, .nav-page3:hover{
+    background-color:RGB(248, 217, 67);
+    border-radius:5px;
+}
+
+.nav-index:active, .nav-page2:active, .nav-page3:active{
+    background-color:RGB(213, 117, 3);
+}
+
+
+nav a:hover{
+    color:white;
+}
+
+.nav-active{
+    background-color:RGB(248, 217, 67);
+    color:white;
+}
+
+#a-logo{
+    padding:0px;
+}
+
+#logo{
+    margin-top:20px;
+    max-width: 60px;
+    max-height:60px;
+    margin-right:100px;
+}
+
+
+
+/*Footer*/
+
+footer{
+    height: 120px;
+    padding-top: 30px;
+    text-align: center;
+    border-top: 2px solid black;
+    background-color:white;
+}
+
+.color-twitch{
+    color:#6441a5;
+}
+
+.color-insta{
+    color:#FF0080;
+}
+
+.color-facebook:hover{
+    color:#0C00FE;
+}
+
+.color-twitter:hover{
+    color:#0087FE;
+}
+
+.color-insta:hover{
+    color:#A20558;
+}
+
+.color-youtube:hover{
+    color:#B50000;
+}
+
+.color-twitch:hover{
+    color:#550388;
+}
+
+.modif-ico{
+    position:relative;
+    top:20px;
+    padding-left:50px;
+}
+
+/*background attachment*/
+
+.imgback01{
+    height:500px;
+    background-image:url(../img/imgback01.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    margin-bottom:50px;
+}
+
+.imgback02{
+    height:500px;
+    background-image:url(../img/imgback02.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    margin-bottom:50px;
+}
+
+.imgback03{
+    height:500px;
+    background-image:url(../img/imgback03.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    margin-bottom:50px;
+}
+
+/* Tout les elements du body hors nav et footer*/
+
+.align, .align2, .align3{
+    text-align:justify;
+}
+
+.titrewow{
+    position:relative;
+    left:230px;
+    top:50px;
+    margin-bottom:100px;
+}
+
+.dimension{
+    margin-right:100px;
+    margin-left:100px;
+    padding-left:25px;
+    padding-right:25px;
+    background-color:white;
+    padding-bottom:20px;
+}
+
+body{
+    background-color:grey;
+}
+
+.systemejeu{
+    padding-bottom:50px;
+}
+
+.imgquest{
+    position:relative;
+    left: 350px;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+.instanceimg{
+    position:relative;
+    left: 300px;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+.raidimg{
+    position:relative;
+    left:330px;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+/*CSS boutique*/
+
+#titleboutik{
+    text-align:center;
+}
+
+.modifbouton{
+    margin-top:95px;
+}
+
+.modifbouton2, .modifbouton3{
+    margin-top:70px;
+}
+
+.modifbouton4{
+    margin-top:190px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+/* Formulaire de contact */
+
+input[type=text], input[type=email], select, textarea{
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid red; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input:focus, textarea:focus{
+    background-color:RGBa(255, 0, 0, 0.8);
+}
+
+#nom::placeholder, #prenom::placeholder, #email::placeholder, #subject::placeholder{
+    color:#4C4A4B;
+}
+
+ 
+.formulaire-contact{
+    
+    border-radius: 15px;
+    background-color: grey;
+    padding: 20px;
+    margin-left:250px;
+    margin-right:250px;
+}
+
+.back-color2{
+    margin-bottom:50px;
+    margin-left:150px;
+    margin-right:150px;
+    border-radius:15px;
+}
+
+.margin-title-contact{
+    text-align:center;
+    color:white;
+    margin-bottom:20px;
+}
+
+.dimension2{
+    background-image: url(../img/backimgcontact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right:100px;
+    margin-left:100px;
+    padding-left:25px;
+    padding-right:25px;
+    background-color:white;
+    padding-bottom:20px;
+    padding-top:50px;
+}
+
+#border-map{
+    padding:5px;
+    border: 1px solid black;
+    background-color:grey;
+    border-radius:15px; 
+}
+
+.map{
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align:center;  
+}
+
+#titleboutik{
+    margin-bottom:35px;
+}
+
+/*CSS pour les parametres JS*/
+
+.changepolice{
+    text-align:center;
+    padding-bottom:25px ;
+    
+}
+
+.changepolice2{
+    text-align:center;
+    
+}
+
+#divcacher{
+    text-align:center;
+    padding-bottom:25px;
+    padding-top:25px;
+    display:none;
+}
+
+.backsize{
+    display:inline-block;
+}
+
+#listecurseur2{
+    display: none;
+}
+
+/*CSS Media Query*/
+
+@media screen and (max-width: 780px){
+    h1{
+        font-size:25px;
+    }
+
+    h2{
+        font-size:20px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    h3, h4{
+        font-size: 15px;
+    }
+
+    p{
+        font-size:13px;
+    }
+
+    nav li a{
+        font-size:12px;
+    }
+
+    nav a{
+        padding:30px 40px;
+    }
+
+    .titrewow{
+        max-width:400px;
+        position:initial;
+        margin-left:60px;
+        margin-bottom:25px;
+        margin-top:25px;
+    }
+
+    .imgquest{
+        position:initial;
+        max-width:500px;
+        max-height:300px;
+        margin-left:60px;
+    }
+
+    .imgcacher{
+        max-width:500px;
+        max-height:300px;
+    }
+
+    .instanceimg{
+        position:initial;
+        max-width: 500px;
+        max-height: 300px;
+        margin-left:110px;
+    }
+
+    .raidimg{
+        position:initial;
+        max-width: 500px;
+        max-height: 300px;
+        margin-left:13px;
+    }
+
+    .imgback01, .imgback02, .imgback03{
+        display:none;
+    }
+
+    .modifbouton{
+        margin-top:132px;
+    }
+
+    .modifbouton2{
+        margin-top:137px;
+    }
+    
+    .modifbouton4{
+        margin-top:323px;
+    }
+
+    .formulaire-contact{
+
+        margin: 0px;
+
+        
+    }
+    
+}   

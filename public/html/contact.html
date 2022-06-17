@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0e3af186dc.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/jpg" href="../img/favicon.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a id="a-logo" href="../../index.html"><img id="logo" src="../img/logowow.png" alt="logo"></a>
+                </li>
+                <li class="nav-index">
+                    <a href="../../index.html">Accueil</a>
+                </li>
+                <li class="nav-page2">
+                    <a href="./boutique.html">Boutique</a>
+                </li>
+                <li class="nav-page3">
+                    <a class="nav-active" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="dimension2">
+        <h1 class="margin-title-contact">Contactez moi !</h1>
+        <div class="back-color2">
+            <div class="changepolice">
+                <button type="button" class="btn btn-danger" id="contactbutton">Change la couleur !</button>
+            </div>
+            <div class="d-flex">
+                <div class="formulaire-contact">
+                    <form action="action_page.php">
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" name="nom" placeholder="Votre nom">
+                        <label for="prenom">Prenom</label>
+                        <input type="text" id="prenom" name="prenom" placeholder="Votre prenom">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="Email" placeholder="Votre Email">
+                        <label for="pays">Pays</label>
+                        <select id="pays" name="pays">
+                            <option value="allemagne">Allemagne</option>
+                            <option value="belgique">Belgique</option>
+                            <option value="france">France</option>
+                            <option value="italie">Italie</option>
+                            <option value="royaume-Uni">Royaume-Uni</option>
+                            <option value="suisse">Suisse</option>
+                        </select>
+                        <label for="subject">Sujet</label>
+                        <textarea id="subject" name="subject" placeholder="Votre sujet..."
+                            style="height:200px"></textarea>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            Submit
+                        </button>
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Message envoyer</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Merci pour votre message !
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fermer</button>
+                                        <button type="button" class="btn btn-danger">Compris</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <iframe id="border-map" class="backmap"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.68766734184!2d4.339172115620876!3d50.85546777953323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c38e84af80dd%3A0xe85cd9cd0218a4aa!2sPl.%20de%20la%20Minoterie%2010%2C%201080%20Molenbeek-Saint-Jean!5e0!3m2!1sfr!2sbe!4v1653590730407!5m2!1sfr!2sbe"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <footer>
+        <span>Blond Anthony - Projet Coding Week - Molengeek</span>
+        <div class="modif-ico">
+            <a href="https://www.facebook.com/search/top?q=world%20of%20warcraft" target="_blank"
+                class="text-primary"><i class="fa-brands fa-facebook me-5 color-facebook color-facebook fa-2x"></i></a>
+            <a href="https://twitter.com/Warcraft_FR" target="_blank" class="text-info color-twitter"><i
+                    class="fa-brands fa-twitter-square me-5 color-twitter fa-2x"></i></a>
+            <a href="https://www.instagram.com/?hl=fr" target="_blank"><i
+                    class="fa-brands fa-instagram-square me-5 color-insta fa-2x"></i></a>
+            <a href="https://www.youtube.com/" target="_blank" class="text-danger"><i
+                    class="fa-brands fa-youtube me-5 color-youtube fa-2x"></i></a>
+            <a href="https://www.twitch.tv/" target="_blank"><i
+                    class="fa-brands fa-twitch me-5 color-twitch fa-2x"></i></a>
+        </div>
+    </footer>
+
+</body>
+<script src="../js/contact.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+</html>
